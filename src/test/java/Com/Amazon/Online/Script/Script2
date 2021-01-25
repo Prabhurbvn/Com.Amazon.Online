@@ -1,0 +1,38 @@
+package Com.Amazon.Online.Script;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import Com.Amazon.Online.Base.Testbase;
+import Com.Amazon.Online.pages.LoginPage;
+
+public class Script2 extends Testbase
+{
+    LoginPage log;
+    
+    @BeforeTest(alwaysRun=true)
+    public void Setup()
+    {
+    	Open();
+    	log = new LoginPage();
+    }
+    
+  
+    @Test
+    public void Validategettext()
+    {
+    	String p= log.VerifyCreateText();
+    	Assert.assertEquals(p, "Create New Account");
+    }
+    
+    
+    @AfterTest
+    public void Teardown()
+    {
+    	driver.close();
+    }
+
+
+}
