@@ -1,0 +1,5 @@
+Com\Amazon\Online\pages\SignupPage.class
+Com\Amazon\Online\Base\Testbase.class
+Com\Amazon\Online\Utils\Testutil.class
+Com\Amazon\Online\pages\LoginPage.class
+Com\Amazon\Online\pages\InboxPage.class

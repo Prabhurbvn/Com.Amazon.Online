@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 99.249 s <<< FAILURE! - in TestSuite
+Com.Amazon.Online.Script.TestScript.Daydropdown  Time elapsed: 30.586 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//select[@name='birthday_day']"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SKS-PC', ip: '192.168.1.5', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Windows\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:50321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2fb66a818f105f9616461511a5c6a567
+*** Element info: {Using=xpath, value=//select[@name='birthday_day']}
+	at Com.Amazon.Online.Script.TestScript.Daydropdown(TestScript.java:66)
+
+Com.Amazon.Online.Script.TestScript.Monthdropdown  Time elapsed: 29.984 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//select[@name='birthday_year']"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SKS-PC', ip: '192.168.1.5', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Windows\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:50321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2fb66a818f105f9616461511a5c6a567
+*** Element info: {Using=xpath, value=//select[@name='birthday_year']}
+	at Com.Amazon.Online.Script.TestScript.Monthdropdown(TestScript.java:72)
+
